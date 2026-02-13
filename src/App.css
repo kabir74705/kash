@@ -285,6 +285,7 @@ body {
 }
 
 
+
 @keyframes pop {
   from { transform: scale(0.6); opacity: 0; }
   to { transform: scale(1); opacity: 1; }
@@ -407,4 +408,97 @@ body {
   background: radial-gradient(circle, rgba(255,92,147,0.4), transparent 70%);
   filter: blur(80px);
   opacity: 0.6;
+}
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  word-break: break-word;
+}
+
+.date {
+  font-size: 1.2rem;
+  margin-top: 70px;
+}
+.gift-section {
+  margin-top: -90px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+@media (max-width: 768px) {
+
+  .app-container {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .hero-heart {
+    font-size: 1.5rem;
+  }
+
+  .date {
+    font-size: 1rem;
+  }
+
+  .gift-section {
+    margin-top: 20px;
+  }
+
+  .footer-hearts span {
+    font-size: 1.2rem;
+  }
+
+}
+@media (max-width: 480px) {
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .hero-box {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-hearts span {
+    font-size: 1rem;
+  }
+
 }
