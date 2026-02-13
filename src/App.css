@@ -466,11 +466,11 @@ body {
   }
 
   .title {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
   }
 
   .hero-heart {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 
   .date {
@@ -478,7 +478,7 @@ body {
   }
 
   .gift-section {
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .footer-hearts span {
