@@ -42,7 +42,7 @@ body {
 
 .title {
   font-family: 'Dancing Script', cursive;
-  font-size: 70px;
+  font-size: 1rem;
   background: linear-gradient(90deg, var(--rose), var(--gold));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -343,7 +343,7 @@ body {
 }
 
 .title {
-  font-size: 50px;
+  font-size: 1rem;
   font-family: 'Dancing Script', cursive;
   background: linear-gradient(90deg, #ff5c93, #ffd86b, #ff5c93);
   -webkit-background-clip: text;
@@ -460,6 +460,14 @@ body {
   width: 100%;
 }
 @media (max-width: 768px) {
+  .hero{
+    padding: 5px;
+    margin: 5px;
+  }
+  .hero-box{
+    padding: 5px;
+    margin: 5px;
+  }
 
   .app-container {
     padding: 5px;
@@ -477,7 +485,7 @@ body {
   }
 
   .date {
-    font-size: .5rem;
+    font-size: 1rem;
   }
 
   .gift-section {
