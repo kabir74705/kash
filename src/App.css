@@ -466,7 +466,7 @@ body {
   }
   .hero-box{
     padding: 5px;
-    margin-top: -50px;
+    margin-top: -20px;
   }
 
   .app-container {
@@ -486,11 +486,11 @@ body {
 
   .date {
     font-size: 1rem;
-    margin-top: -50px;
+    margin-top: -20px;
   }
 
   .gift-section {
-    margin-top: -50px;
+    margin-top: -20px;
   }
 
   .footer-hearts span {
