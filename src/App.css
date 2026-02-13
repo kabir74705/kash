@@ -462,15 +462,16 @@ body {
 @media (max-width: 768px) {
 
   .app-container {
-    padding: 15px;
+    padding: 5px;
   }
 
   .title {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding: 5px;
   }
 
   .hero-heart {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .date {
@@ -478,11 +479,11 @@ body {
   }
 
   .gift-section {
-    margin-top: 10px;
+    margin-top: 5px;
   }
 
   .footer-hearts span {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
 }
